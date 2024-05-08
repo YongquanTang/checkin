@@ -17,7 +17,7 @@ const glados = async () => {
       headers,
     }).then((r) => r.json())
     return [
-      'Checkin OK:',
+      'Checkin1 OK:',
       `Points ${Number(checkin.list[0].balance)}`,
       `Email ${status.data.email}`,
       `Left Days ${Number(status.data.leftDays)}`,
